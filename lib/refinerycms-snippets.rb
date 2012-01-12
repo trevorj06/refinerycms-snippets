@@ -37,9 +37,9 @@ module Refinery
           plugin.name = "snippets"
           plugin.url = '/refinery/snippets'
           plugin.activity = [{
-                               :class => Refinery::Snippet
+                               :class_name => "Refinery::Snippet"
                              }, {
-                               :class => Refinery::SnippetPage
+                               :class_name => "Refinery::SnippetPage"
                              }]
         end
         
